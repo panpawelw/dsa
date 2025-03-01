@@ -1,4 +1,4 @@
-package com.panpawelw.dsa.sumrecursive;
+package com.panpawelw.dsa.sumrecursive.witharraycopy;
 
 import java.util.Arrays;
 
