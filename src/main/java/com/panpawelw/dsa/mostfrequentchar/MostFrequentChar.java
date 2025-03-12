@@ -1,6 +1,6 @@
 package com.panpawelw.dsa.mostfrequentchar;
 
-public class Main {
+public class MostFrequentChar {
 
     public static final String TEST_STRING = "Test string";
 
