@@ -2,7 +2,7 @@ package com.panpawelw.dsa.anagrams;
 
 import java.util.HashMap;
 
-public class Main {
+public class Anagrams {
 
     public static final String STRING_ONE = "restful";
     public static final String STRING_TWO = "fluster";

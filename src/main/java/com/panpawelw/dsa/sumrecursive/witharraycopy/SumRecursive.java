@@ -2,7 +2,7 @@ package com.panpawelw.dsa.sumrecursive.witharraycopy;
 
 import java.util.Arrays;
 
-public class Main {
+public class SumRecursive {
 
     public static final int[] INT_ARRAY = {1,2,3,4,5};
 
