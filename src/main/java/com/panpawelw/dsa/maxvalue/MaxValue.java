@@ -6,6 +6,7 @@ public class MaxValue {
 
   public static void main(String[] args) {
     int maximum = Integer.MIN_VALUE;
+    if (NUMBERS.length == 0) throw new IllegalArgumentException("The array must not be empty");
     for (int number : NUMBERS) {
       if (number > maximum) {
         maximum = number;
