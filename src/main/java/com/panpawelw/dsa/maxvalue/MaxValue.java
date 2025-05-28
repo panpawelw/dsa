@@ -5,13 +5,17 @@ public class MaxValue {
   public static final int[] NUMBERS = {1,2,3,4,5};
 
   public static void main(String[] args) {
+    System.out.println("Maximum value is " + getMaximum(NUMBERS));
+  }
+
+  private static int getMaximum(int[] numbers) {
     int maximum = Integer.MIN_VALUE;
-    if (NUMBERS.length == 0) throw new IllegalArgumentException("The array must not be empty");
-    for (int number : NUMBERS) {
+    if (numbers.length == 0) throw new IllegalArgumentException("The array must not be empty");
+    for (int number : numbers) {
       if (number > maximum) {
         maximum = number;
       }
     }
-    System.out.println("Maximum value is " + maximum);
+    return maximum;
   }
 }
