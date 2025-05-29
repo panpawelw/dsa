@@ -10,7 +10,9 @@ public class MaxValue {
 
   private static int getMaximum(int[] numbers) {
     int maximum = Integer.MIN_VALUE;
-    if (numbers.length == 0) throw new IllegalArgumentException("The array must not be empty");
+    if (numbers == null || numbers.length == 0) {
+      throw new IllegalArgumentException("Array must not be null or empty");
+    }
     for (int number : numbers) {
       if (number > maximum) {
         maximum = number;
