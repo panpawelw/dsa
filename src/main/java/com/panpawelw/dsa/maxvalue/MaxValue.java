@@ -1,5 +1,8 @@
 package com.panpawelw.dsa.maxvalue;
 
+/**
+ * Finds a maximum value in integer array.
+ */
 public class MaxValue {
 
   public static final int[] NUMBERS = {1,2,3,4,5};
