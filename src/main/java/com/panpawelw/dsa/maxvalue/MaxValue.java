@@ -2,6 +2,8 @@ package com.panpawelw.dsa.maxvalue;
 
 /**
  * Finds a maximum value in integer array.
+ *
+ * @author panpawelw
  */
 public class MaxValue {
 
@@ -11,6 +13,12 @@ public class MaxValue {
     System.out.println("Maximum value is " + getMaximum(NUMBERS));
   }
 
+  /**
+   * Finds a maximum value in integer array.
+   *
+   * @param numbers integer array
+   * @return        maximum
+   */
   private static int getMaximum(int[] numbers) {
     int maximum = Integer.MIN_VALUE;
     if (numbers == null || numbers.length == 0) {
