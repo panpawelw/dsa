@@ -1,7 +1,7 @@
 package com.panpawelw.dsa.maxvalue;
 
 /**
- * Finds a maximum value in integer array.
+ * Finds the maximum value in integer array.
  *
  * @author panpawelw
  */
@@ -14,7 +14,7 @@ public class MaxValue {
   }
 
   /**
-   * Finds a maximum value in integer array.
+   * Finds the maximum value in integer array.
    *
    * @param numbers integer array
    * @return        maximum
