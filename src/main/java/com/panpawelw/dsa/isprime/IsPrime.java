@@ -2,6 +2,11 @@ package com.panpawelw.dsa.isprime;
 
 import java.util.Scanner;
 
+/**
+ * Checks whether the integer value entered by user is a prime number.
+ *
+ * @author panpawelw
+ */
 public class IsPrime {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -14,6 +19,11 @@ public class IsPrime {
     scanner.close();
   }
 
+  /**
+   * Checks whether the passed integer parameter is a prime number.
+   * @param number  the integer number to check.
+   * @return        boolean response.
+   */
   public static boolean isPrime(int number) {
     for (int i = 2; i < number; i++) {
       if (number % i == 0) return false;
