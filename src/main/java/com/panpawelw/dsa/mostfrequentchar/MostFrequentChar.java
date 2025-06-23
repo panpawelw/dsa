@@ -2,6 +2,11 @@ package com.panpawelw.dsa.mostfrequentchar;
 
 import java.util.HashMap;
 
+/**
+ * Finds the most frequent character in a string.
+ *
+ * @author panpawelw
+ */
 public class MostFrequentChar {
 
   public static final String TEST_STRING = "Test string";
