@@ -26,9 +26,9 @@ public class IsPrime {
   }
 
   /**
-   * Checks whether the passed integer parameter is a prime number.
-   * @param number  the integer number to check.
-   * @return        boolean response.
+   * Checks whether the passed integer parameter is a prime number
+   * @param number  the integer number to check
+   * @return        boolean result
    */
   public static boolean isPrime(int number) {
     if (number < 2) return false;

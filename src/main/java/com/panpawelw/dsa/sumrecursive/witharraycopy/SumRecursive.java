@@ -25,8 +25,8 @@ public class SumRecursive {
    * Adds up all the integers in an array using recursion.
    * Array is being copied in the process.
    *
-   * @param array array of integers to be added up.
-   * @return      sum.
+   * @param array array of integers to be added up
+   * @return      the sum
    */
   static int sumArray(int[] array) {
     if (array.length == 1) {
