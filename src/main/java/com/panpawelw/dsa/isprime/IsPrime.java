@@ -16,8 +16,9 @@ import java.util.Scanner;
 public class IsPrime {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+    System.out.print("Enter an integer: ");
     while(!scanner.hasNextInt()) {
+      System.out.print("Invalid input. Please enter a valid integer: ");
       scanner.next();
     }
     int number = scanner.nextInt();
