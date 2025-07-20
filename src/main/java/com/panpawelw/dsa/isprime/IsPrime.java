@@ -22,7 +22,7 @@ public class IsPrime {
       scanner.next();
     }
     int number = scanner.nextInt();
-    System.out.printf("%d is %sa prime number\n", number, isPrime(number) ?"":"not ");
+    System.out.printf("%d is %sa prime number.%n", number, isPrime(number) ?"":"not ");
     scanner.close();
   }
 
