@@ -19,6 +19,11 @@ public class IsPrime {
     System.out.printf("%d is %sa prime number.%n", number, isPrime(number) ?"":"not ");
   }
 
+  /**
+   * Prompts the user to input an integer.
+   *
+   * @return  the integer entered by user
+   */
   private static int readInt() {
     System.out.print("Enter an integer: ");
     int number;
