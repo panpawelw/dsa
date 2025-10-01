@@ -14,6 +14,10 @@ import java.util.Scanner;
  * @author panpawelw
  */
 public class IsPrime {
+
+  /* This resource is never closed for simplicity */
+  private static final Scanner SCANNER = new Scanner(System.in);
+
   public static void main(String[] args) {
     int number = readInt();
     System.out.printf("%d is %sa prime number.%n", number, isPrime(number) ?"":"not ");
@@ -27,13 +31,11 @@ public class IsPrime {
   private static int readInt() {
     System.out.print("Enter an integer: ");
     int number;
-    try (Scanner scanner = new Scanner(System.in)) {
-      while (!scanner.hasNextInt()) {
-        System.out.print("Invalid input. Please enter a valid integer: ");
-        scanner.next();
-      }
-      number = scanner.nextInt();
+    while (!SCANNER.hasNextInt()) {
+      System.out.print("Invalid input. Please enter a valid integer: ");
+      SCANNER.next();
     }
+    number = SCANNER.nextInt();
     return number;
   }
 
