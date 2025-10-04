@@ -5,11 +5,8 @@ import java.util.Scanner;
 /**
  * Checks whether the integer value entered by user is a prime number.
  *
- * <p>Example usage:
- * <pre>
- *   boolean isPrime = IsPrime.isPrime(8);
- * </pre>
- * </p>
+ * <p>Example usage:</p>
+ * <pre><code>boolean isPrime = IsPrime.isPrime(8);</code></pre>
  *
  * @author panpawelw
  */
