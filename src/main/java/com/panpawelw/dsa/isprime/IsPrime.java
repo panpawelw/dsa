@@ -17,13 +17,13 @@ public class IsPrime {
 
   public static void main(String[] args) {
     int number = readInt();
-    System.out.printf("%d is %sa prime number.%n", number, isPrime(number) ?"":"not ");
+    System.out.printf("%d is %sa prime number.%n", number, isPrime(number) ? "" : "not ");
   }
 
   /**
    * Prompts the user to input an integer.
    *
-   * @return  the integer entered by user
+   * @return the integer entered by user
    */
   private static int readInt() {
     System.out.print("Enter an integer: ");
@@ -37,9 +37,11 @@ public class IsPrime {
   }
 
   /**
-   * Checks whether the passed integer parameter is a prime number
-   * @param number  the integer number to check
-   * @return        boolean result
+   * Determines whether a given integer is prime.
+   * Numbers less than 2 (including negatives, 0, and 1) are not prime.
+   *
+   * @param number the integer to test
+   * @return {@code true} if the number is prime; {@code false} otherwise
    */
   public static boolean isPrime(int number) {
     if (number < 2) return false;
