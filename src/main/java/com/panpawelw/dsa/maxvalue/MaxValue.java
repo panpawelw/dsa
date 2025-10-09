@@ -3,11 +3,8 @@ package com.panpawelw.dsa.maxvalue;
 /**
  * Finds the maximum value in integer array.
  *
- * <p>Example usage:
- * <pre>
- *   int max = MaxValue.getMaximum(new int[]{1, 2, 3});
- * </pre>
- * </p>
+ * <p>Example usage:</p>
+ * <pre><code>int max = MaxValue.getMaximum(new int[]{1, 2, 3});</code>
  *
  * @author panpawelw
  */
