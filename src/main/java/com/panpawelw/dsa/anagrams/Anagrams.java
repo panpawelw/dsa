@@ -5,11 +5,8 @@ import java.util.HashMap;
 /**
  * Checks whether two provided strings are anagrams.
  *
- * <p>Example usage:
- * <pre>
- *   boolean areAnagrams = Anagrams.charCount(STRING_ONE).equals(Anagrams.charCount(STRING_TWO));
- * </pre>
- * </p>
+ * <p>Example usage:</p>
+ * <pre><code>boolean areAnagrams = Anagrams.charCount(STRING_ONE).equals(Anagrams.charCount(STRING_TWO));</code></pre>
  *
  * @author panpawelw
  */

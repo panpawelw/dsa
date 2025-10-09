@@ -5,11 +5,8 @@ import java.util.Arrays;
 /**
  * Adds up all the integers in an array using recursion.
  *
- * <p>Example usage:
- * <pre>
- *   int arraySum = SumRecursive.sumArray(new int[]{1, 2, 3, 4, 5});
- * </pre>
- * </p>
+ * <p>Example usage:</p>
+ * <pre><code>int arraySum = SumRecursive.sumArray(new int[]{1, 2, 3, 4, 5});</code></pre>
  *
  * @author panpawelw
  */
